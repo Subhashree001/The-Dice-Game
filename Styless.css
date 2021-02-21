@@ -1,0 +1,63 @@
+body{
+  background-color:#28527a;
+  padding:0;
+  margin:0;
+}
+
+.container{
+   width:70%;
+   text-align:center;
+   color:#8ac4d0;
+   font-family: 'Reggae One', cursive;
+   margin:auto;
+ }
+
+h1{
+  font-size:6.7rem;
+  margin:30px;
+  text-shadow:5px 2px #1687a7;
+}
+
+.dice{
+  font-family: 'Abril Fatface', cursive;
+  display:inline-block;
+}
+p{
+    font-size:1.5rem;
+    color:#f4d160;
+}
+img{
+  width:80%;
+}
+
+/* Footer */
+footer{
+  margin-top:5%;
+  text-align: center;
+  color:#fbeeac;
+    font-family: 'Abril Fatface', cursive;
+}
+
+@media (max-width:1028px){
+  .container{
+     width:94%;
+   }
+
+  h1{
+    font-size:9.5rem;
+  }
+  .dice{
+    padding-right:5%;
+  }
+  p{
+    font-size:3.8rem;
+  }
+  img{
+    width:100%;
+  }
+  footer{
+    margin-top: 15%;
+    font-size: 1.5rem;
+  }
+
+}
